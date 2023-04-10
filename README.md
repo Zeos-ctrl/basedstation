@@ -1,14 +1,24 @@
 # basedstation
 
-A small audio encoder and decoder for rust using codec2 for voice commpression
+A small audio encoder and decoder for rust using codec2 for voice compression
 and possible song compression in the future using other codecs.
 
 ## Goals
 
-1. To encode and decode audio
+### Current
 
-2. To convert audio files to the right format for encoding
+[ ] Functions to encode and decode audio
 
-3. To be implemented in an audio stream for a LoRa server and client
+[ ] Convert audio files to the right format for encoding
 
-![Flowchart](/images/Flowchart_Readme.png)
+[ ] To be implemented in an audio stream for a LoRa server and client
+
+### Future
+
+[ ] Menu to change what is sent
+
+![Flowchart](/.images/Flowchart_Readme.png)
+
+## Main Crates Used
+
+1. https://docs.rs/codec2/latest/codec2/

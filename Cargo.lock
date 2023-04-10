@@ -3,7 +3,7 @@
 version = 3
 
 [[package]]
-name = "based_station"
+name = "basedstation"
 version = "0.1.0"
 dependencies = [
  "codec2",
